@@ -22,3 +22,4 @@ async def root():
     return {"message": "Hello World"} # application/json으로 반환
 
 ```
+

@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Item Gubun Details</title>
+    </head>
+    <body>
+        {% if gubun == "admin" or gubun == "Admin" %}
+        <p>Admin User</p>
+        {% else %}
+        <p>Regular User</p>
+        {% endif %}
+        {{ item }}
+    </body>
+</html>
